@@ -1,5 +1,5 @@
 # Exclude local-only analysis
-analysis_notebooks_no_publish/
+old_notebooks/
 
 # Python
 __pycache__/
