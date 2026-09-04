@@ -1,0 +1,208 @@
+Title,Link,Relevant,Year,Venue,Judge,Judge type,Mentioned validation,Metric,Metric type,notes,"Double check human validation (human, judge, annotat)"
+uncertainty quantification for evaluating gender bias in machine translation',https://aclanthology.org/2026.findings-eacl.116/,N,2026,ACL findings,,,,,,,
+"""reasoning about uncertainty : do reasoning models know when they do n't know ?""",https://aclanthology.org/2026.findings-eacl.178/,N,2026,EACL,Unidentifiable,Unidentifiable,,"ECE, MCE",ECE,,N
+think just enough : leveraging self-assessed confidence for adaptive reasoning in language models',https://aclanthology.org/2026.findings-eacl.263/,N,2026,EACL,,,,,,,
+how reliable are confidence estimators for large reasoning models ? a systematic benchmark on high-stakes domains',https://aclanthology.org/2026.eacl-long.78/,Y,2026,EACL,"String matching, LLM as judge (GPT-5-nano)","Exact/fuzzy matching, LLM judge",,"AUROC, AUCPR, ECE, Brier","AUROC, AUCPR, ECE, Brier",,N
+mind the gap : benchmarking llm uncertainty and calibration with specialty-aware clinical qa and reasoning-based behavioural features',https://aclanthology.org/2026.eacl-long.106/,Y,2026,EACL,"String matching, LLM as judge (LLaMA-3.1-8B-Instruct), human validation","Exact/fuzzy matching, LLM judge, HumanVal",Y (human),"AUROC, ECE, Brier","AUROC, ECE, Brier",,Y
+"""it 's all about the confidence : an unsupervised approach for multilingual historical entity linking using large language models""",https://arxiv.org/abs/2601.08500,N,2026,EACL,,,,,,,
+taming object hallucinations with verified atomic confidence estimation',https://aclanthology.org/2026.eacl-long.252/,N,2026,EACL,,,,,,,
+knowing when to abstain : medical llms under clinical uncertainty',https://arxiv.org/pdf/2601.12471,N,,,,,,,,,
+evidential semantic entropy for llm uncertainty quantification',https://aclanthology.org/2026.eacl-long.334/,Y,2026,EACL,LLM as judge (gpt4o-mini),LLM judge,,"AUROC, AUARC","AUROC, AURAC",,N
+investigating the multilingual calibration effects of language model instruction tuning',https://arxiv.org/abs/2601.01362,N,,,,,,,,,
+semantic token clustering for efficient uncertainty quantification in large language models',https://aclanthology.org/2026.eacl-short.49/,Y,2026,EACL,LLM as judge (GPT-4.1),LLM judge,,AUROC,AUROC,,N
+evaluating calibration of arabic pre-trained language models on dialectal text',https://aclanthology.org/2025.wacl-1.8/,N,2025,WACL,,,,,,,
+robust vietnamese duration question answering through lora-based ensemble and adaptive threshold calibration',https://aclanthology.org/2025.vlsp-1.39.pdf,N,,,,,,,,,
+phases of uncertainty : confidence -- calibration dynamics in language model training',https://aclanthology.org/2025.uncertainlp-main.2.pdf,N,2025,UncertaiNLP,,,,,,,
+uncertainty in semantic language modeling with pixels',https://aclanthology.org/2025.uncertainlp-main.11/,N,2025,UncertaiNLP,,,,,,,
+confidence calibration in large language model-based entity matching',https://aclanthology.org/2025.uncertainlp-main.12/,N,2025,UncertaiNLP,,,,,,,
+on the role of unobserved sequences on sample-based uncertainty quantification for llms',https://aclanthology.org/2025.uncertainlp-main.15/,Y,2025,UncertaiNLP,LLM as judge ( Meta-Llama-3-8B-Instruct),LLM judge,,AUROC,AUROC,,N
+confidence-based response abstinence : improving llm trustworthiness via activation-based uncertainty estimation',https://aclanthology.org/2025.uncertainlp-main.16/,Y,2025,UncertaiNLP,Human labels (no automated judge),Human,,AUROC,AUROC,,NA
+ambiguity detection and uncertainty calibration for question answering with large language models',https://aclanthology.org/2025.trustnlp-main.4/,N ,2025,TrustNLP,,,,,,,
+"""monte carlo temperature : a robust sampling strategy for llm 's uncertainty quantification methods""",https://aclanthology.org/2025.trustnlp-main.21/,Y,2025,TrustNLP,LLM as judge (Claude Haiku 3.5),LLM judge,,"AUROC, PR-AUC, AURAC","AUROC, AUCPR, AURAC",,N
+a calibrated reflection approach for enhancing confidence estimation in llms',https://aclanthology.org/2025.trustnlp-main.26/,Y,2025,TrustNLP,Human labels (no automated judge),Human,,"AUPRC, AUROC, ECE, Brier","AUCPR, AUROC, ECE, Brier",,NA
+benchmarking uncertainty quantification methods for large language models with lm-polygraph',https://aclanthology.org/2025.tacl-1.11/,Y,2025,TACL,"Align-Score, COMET, Rouge-L","LLM judge, Overlap based",,Prediction Rejection Ratio (PRR),PRR,,N
+smurfcat at semeval-2025 task 3 : bridging external knowledge and model uncertainty for enhanced hallucination detection',https://aclanthology.org/2025.semeval-1.137/,N,2025,SemEval,,,,,,,
+malto at semeval-2025 task 3 : detecting hallucinations in llms via uncertainty quantification and larger model validation',https://aclanthology.org/2025.semeval-1.175/,N,2025,SemEval,,,,,,,
+fine-grained fallacy detection with human label variation',https://aclanthology.org/2025.naacl-long.34/,N,2025,NAACL,,,,,,,
+token-level density-based uncertainty quantification methods for eliciting truthfulness of large language models',https://aclanthology.org/2025.naacl-long.113/,Y,2025,NAACL,"RougeL, FactScore","LLM judge, Overlap based",,"Prediction Rejection Ratio (PPR), AUROC, PR-AUC","PRR, AUROC, AUCPR",,N
+sunar : semantic uncertainty based neighborhood aware retrieval for complex qa',https://aclanthology.org/2025.naacl-long.300/,Y,2025,NAACL,CoverEM,Exact/fuzzy matching,,"nDCG@k, R@k",Other,,N
+dynamic uncertainty ranking : enhancing retrieval-augmented in-context learning for long-tail knowledge in llms',https://aclanthology.org/2025.naacl-long.453/,N,2025,NAACL,,,,,,,
+mice for cats : model-internal confidence estimation for calibrating agents with tools',https://aclanthology.org/2025.naacl-long.615/,N,2025,NAACL,,,,,,,
+can llms recognize their own analogical hallucinations ? evaluating uncertainty estimation for analogical reasoning',https://aclanthology.org/2025.knowllm-1.8/,Y,2025,KnowFM,Human labels (no automated judge),Human,,Predictive Rate Ratio (PRR),PRR,,NA
+fine-grained confidence estimation for spurious correctness detection in large language models',https://aclanthology.org/2025.ijcnlp-long.68/,Y,2025,IJCNLP,"LLM judge (GPT-4.1), human validation","LLM judge, HumanVal",,"ECE, Brier, AUROC, AUPRC","ECE, Brier, AUROC, AUCPR",,Y
+"""the confidence paradox : can llm know when it 's wrong ?""",https://aclanthology.org/2025.ijcnlp-long.113/,N,2025,IJCNLP,,,,,,,
+beyond statistical significance : quantifying uncertainty and statistical variability in multilingual and multitask nlp evaluation',https://aclanthology.org/2025.ijcnlp-long.125/,N,2025,IJCNLP,,,,,,,
+cleanse : uncertainty estimation approach using clustering-based semantic consistency in llms',https://aclanthology.org/2025.gem-1.25/,Y,2025,GEM,Rouge-L>0.7,Overlap based,,"AUROC, Pearson Correlation Coefficient","AUROC, Correlation",,N
+clustering zero-shot uncertainty estimations to assess llm response accuracy for yes/no q\\ & a',https://aclanthology.org/2025.gem-1.29/,N,2025,GEM,,,,,,,
+improving large language model confidence estimates using extractive rationales for classification',https://aclanthology.org/2025.gem-1.49/,N,2025,GEM,,,,,,,
+"do not design , learn : a trainable scoring function for uncertainty estimation in generative llms'",https://aclanthology.org/2025.findings-naacl.41/,Y,2025,NAACL findings,"LLM judge (GPT-3.5-turbo), human validation","LLM judge, HumanVal",,"AUROC, Prediction Rejection Ratio (PRR)","PRR, AUROC",,N
+semantic consistency-based uncertainty quantification for factuality in radiology report generation',https://aclanthology.org/2025.findings-naacl.95.pdf,Y,2025,NAACL findings,"BLEU, BertScore","Overlap based, Semantic similarity",,"Pearson Correlation Coefficient, RCE, Factuality vs Coverage curve, Uncertainty Precision Alignment","AURAC, Correlation, Other",,N
+efficient nearest neighbor based uncertainty estimation for natural language processing tasks',https://aclanthology.org/2025.findings-naacl.246/,N,2025,NAACL findings,,,,,,,
+maqa : evaluating uncertainty quantification in llms regarding data uncertainty',https://aclanthology.org/2025.findings-naacl.325/,Y,2025,NAACL findings,"Exact match, precision (for multiple correct answers)",Exact/fuzzy matching,,"AUROC, PR-AUC","AUROC, AUCPR",,N
+uncertainty quantification for clinical outcome predictions with ( large ) language models',https://aclanthology.org/2025.findings-naacl.419/,N,2025,NAACL findings,,,,,,,
+accounting for sycophancy in language model uncertainty estimation',https://aclanthology.org/2025.findings-naacl.438/,Check again,2025,NAACL findings,,,,,,,
+mlingconf : a comprehensive study of multilingual confidence estimation on large language models',https://aclanthology.org/2025.findings-acl.129/,Y,2025,ACL findings,"positive-recall exact matching (PREM), human validation","Exact/fuzzy matching, HumanVal",,"AUROC, ECE","AUROC, ECE",,Y
+ComparisonQA: Evaluating Factuality Robustness of LLMs Through Knowledge Frequency Control and Uncertainty,https://aclanthology.org/2025.findings-acl.212/,N,2025,ACL findings,,,,,,,
+beyond semantic entropy : boosting llm uncertainty quantification with pairwise semantic similarity',https://aclanthology.org/2025.findings-acl.234/,Y,2025,ACL findings,"F1, RougeL, BertScore","Overlap based, Semantic similarity",,"AUROC, AURAC, PRR","AUROC, AURAC, PRR",,N
+task calibration : calibrating large language models on inference tasks',https://aclanthology.org/2025.findings-acl.362.pdf,N,2025,ACL findings,,,,,,,
+ubench : benchmarking uncertainty in large language models with multiple choice questions',https://aclanthology.org/2025.findings-acl.423/,N,2025,ACL findings,,,,,,,
+confidence improves self-consistency in llms',https://aclanthology.org/2025.findings-acl.1030/,N,2025,ACL findings,,,,,,,
+a survey of uncertainty estimation methods on large language models',https://aclanthology.org/2025.findings-acl.1101/,Y,2025,ACL findings,LLM judge ( LLaMA3.1-8B-Instruct),LLM judge,,"AUROC, AUARC","AUROC, AURAC",,N
+explain then rank : scale calibration of neural rankers using natural language explanations from llms',https://aclanthology.org/2025.findings-acl.1167/,N,2025,ACL findings,,,,,,,
+cot-uq : improving response-wise uncertainty quantification in llms with chain-of-thought',https://aclanthology.org/2025.findings-acl.1339/,Y,2025,ACL findings,Unidentifiable,Unidentifiable,,AUROC,AUROC,,N
+"minimal ranks , maximum confidence : parameter-efficient uncertainty quantification for lora'",https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.66.pdf,N,2025,EMNLP,,,,,,,
+benchmarking uncertainty metrics for llm target-aware search',https://aclanthology.org/2025.findings-emnlp.226/,Check again,2025,EMNLP findings,Unidentifiable,Unidentifiable,,Spearman correlation,,,
+rethinking llm uncertainty : a multi-agent approach to estimating black-box model uncertainty',https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.660.pdf,Y,2025,EMNLP findings,Unidentifiable,Unidentifiable,,AUROC,AUROC,,N
+simba uq : similarity-based aggregation for uncertainty quantification in large language models',https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.859.pdf,Y,2025,EMNLP findings,RougeL>0.5,Overlap based,,"AUROC, ACE, ATS","AUROC, ECE, other",,N
+beyond binary preferences : semi-online label-free grace-kto with group-wise adaptive calibration for high-quality long-text generation',https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.951.pdf,N,2025,EMNLP findings,,,,,,,
+adaptive platt scaling with causal interpretations for self-reflective language model uncertainty estimates',https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.999.pdf,N,2025,EMNLP findings,,,,,,,
+genuine : graph enhanced multi-level uncertainty estimation for large language models',https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.1119.pdf,Y,2025,EMNLP findings,Rouge-1>=0.3,Overlap based,,"AUROC, ECE, NLL","AUROC, ECE, NLL",,N
+evaluating uncertainty quantification methods in argumentative large language models',https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.1184.pdf,Y,2025,EMNLP findings,Unidentifiable,Unidentifiable,,Brier Score,Brier,,N
+debunc : improving large language model agent communication with uncertainty metrics',https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.1265.pdf,Y,2025,EMNLP findings,Unidentifiable,Unidentifiable,,AUROC,AUROC,,N
+quantifying uncertainty in natural language explanations of large language models for question answering',https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.1362.pdf,N,2025,EMNLP findings,,,,,,,
+atomic calibration of llms in long-form generations',https://aclanthology.org/2025.findings-ijcnlp.9/,Y,2025,IJCNLP findings,"FactScore, human validation","LLM judge, HumanVal",,"AUROC, Brier, ECE","AUROC, Brier, ECE",,Y
+calibrating verbal uncertainty as a linear feature to reduce hallucinations',https://aclanthology.org/2025.emnlp-main.187/,N,2025,EMNLP,,,,,,,
+uncertainty-line : length-invariant estimation of uncertainty for large language models',https://aclanthology.org/2025.emnlp-main.400/,Y,2025,EMNLP,"COMET, XComet-XXL and MetricX-XXL, AlignScore (semantic similarity)",Semantic similarity,,"PR-curve,  Prediction-Rejection Ratio (PRR)","PRR, AUCPR",,N
+certainty in uncertainty : reasoning over uncertain knowledge graphs with statistical guarantees',https://aclanthology.org/2025.emnlp-main.441/,N,2025,EMNLP,,,,,,,
+calibrating llm confidence by probing perturbed representation stability',https://aclanthology.org/2025.emnlp-main.530/,Y,2025,EMNLP,LLM as judge (GPT-4o-mini),LLM judge,,"ECE, Brier, AUROC, AUCPR, ACC","ECE, Brier, AUROC, AUCPR, Other",,N
+exploring response uncertainty in mllms : an empirical evaluation under misleading scenarios',https://aclanthology.org/2025.emnlp-main.916/,N,2025,EMNLP,,,,,,,
+metafaith : faithful natural language uncertainty expression in llms',https://aclanthology.org/2025.emnlp-main.1505/,N,2025,EMNLP,,,,,,,
+uncle : benchmarking uncertainty expressions in long-form generation',https://aclanthology.org/2025.emnlp-main.1543/,N,2025,EMNLP,,,,,,,
+simple yet effective : an information-theoretic approach to multi-llm uncertainty quantification',https://aclanthology.org/2025.emnlp-main.1551/,N,2025,EMNLP,,,,,,,
+all roads lead to rome : graph-based confidence estimation for large language model reasoning',https://aclanthology.org/2025.emnlp-main.1620/,Y,2025,EMNLP,Unidentifiable,Unidentifiable,,"AUROC, ECE, Brier","AUROC, ECE, Brier",,N
+reasoning under uncertainty : efficient llm inference via unsupervised confidence dilution and convergent adaptive sampling',https://aclanthology.org/2025.emnlp-main.1638/,N,2025,EMNLP,,,,,,,
+sue : sparsity-based uncertainty estimation via sparse dictionary learning',https://aclanthology.org/2025.emnlp-main.1671/,N,2025,EMNLP,,,,,,,
+a head to predict and a head to question : pre-trained uncertainty quantification heads for hallucination detection in llm outputs',https://aclanthology.org/2025.emnlp-main.1809/,Y,2025,EMNLP,"LLM judge (GPT-4o),",LLM judge,,PR-AUC,AUCPR,,N
+unveiling uncertainty : a deep dive into calibration and performance of multimodal large language models',https://aclanthology.org/2025.coling-main.208/,N,2025,COLING,,,,,,,
+understanding the impact of confidence in retrieval augmented generation : a case study in the medical domain',https://aclanthology.org/2025.bionlp-1.1/,N,2025,BIONLP,,,,,,,
+modeling uncertainty in composed image retrieval via probabilistic embeddings',https://aclanthology.org/2025.acl-long.61/,N,2025,ACL,,,,,,,
+confidence v.s . critique : a decomposition of self-correction capability for llms',https://aclanthology.org/2025.acl-long.203/,N,2025,ACL,,,,,,,
+ualign : leveraging uncertainty estimations for factuality alignment on large language models',https://aclanthology.org/2025.acl-long.299/,Y,2025,ACL,"y ∈ yˆ ∨ yˆ ∈ y, human validation","Exact/fuzzy matching, HumanVal",,"Precision, Truthfulness, AUROC","AUROC, Other",,Y
+cer : confidence enhanced reasoning in llms',https://aclanthology.org/2025.acl-long.390/,N,2025,ACL,,,,,,This may be interesting for TACL baseline implementation (see sampling reasoning paths for triviaQA),
+mmboundary : advancing mllm knowledge boundary awareness through reasoning step confidence calibration',https://aclanthology.org/2025.acl-long.802/,Y,2025,ACL,"pairwise similarity scores before using a threshold to classify “matches.”,  human validation","Embedding similarity, HumanVal",,"ECE, MECE, AUROC","ECE, AUROC",,Y
+do not abstain ! identify and solve the uncertainty',https://aclanthology.org/2025.acl-long.840/,N,2025,ACL,LLM judge (Qwen2.5-72b),LLM judge ,,Answer Quality,,This may be interesting to Joris,
+logu : long-form generation with uncertainty expressions',https://aclanthology.org/2025.acl-long.928/,N - Check again,2025,ACL,LLM judge (GPT-4o),LLM judge ,,Uncertain Accuracy,,,
+sconu : selective conformal uncertainty in large language models',https://aclanthology.org/2025.acl-long.934/,N,2025,ACL,,,,,,,
+grace : a granular benchmark for evaluating model calibration against human calibration',https://aclanthology.org/anthology-files/pdf/acl/2025.acl-long.962.pdf,N,2025,ACL,,,,,,Cool view of instance level calibration,
+towards harmonized uncertainty estimation for large language models',https://aclanthology.org/2025.acl-long.1118/,Y,2025,ACL,Rouge-L>0.7 + LLM judge (GPT-turbo-3.5-061),"LLM judge, Overlap based",,"AUROC, ECE","ECE, AUROC",,N
+sgic : a self-guided iterative calibration framework for rag',https://aclanthology.org/2025.acl-long.1376/,N,2025,ACL,,,,,,,
+reconsidering llm uncertainty estimation methods in the wild',https://aclanthology.org/2025.acl-long.1429/,Y,2025,ACL,LLM judge (GPT-4o-mini),LLM judge,,"Prediction Rejection Ratio, Average Recall Error","PRR, other",Looks like an interesting paper for current submission,N
+"""improving the calibration of confidence scores in text generation using the output distribution 's characteristics""",https://aclanthology.org/2025.acl-short.15/,Y,2025,ACL,"ROUGE-L, BLEU, F1",Overlap based,,Spearman correlation ,correlation,looks interesting with regards to probar,N
+uncertainty quantification for large language models',https://aclanthology.org/2025.acl-tutorials.3/,N,2025,ACL Tutorials,,,,,,,
+combining confidence elicitation and sample-based methods for uncertainty quantification in misinformation mitigation',https://aclanthology.org/2024.uncertainlp-1.12/,N,2024,UncertaiNLP,,,,,,,
+halu-nlp at semeval-2024 task 6 : metacheckgpt - a multi-task hallucination detection using llm uncertainty and meta-models',https://aclanthology.org/2024.semeval-1.52/,N,2024,SemEval,,,,,,,
+uncertainty quantification for in-context learning of large language models',https://aclanthology.org/2024.naacl-long.184/,N,2024,NAACL,,,,,,classification,
+show your work with confidence : confidence bands for tuning curves',https://aclanthology.org/2024.naacl-long.189/,N,2024,NAACL,,,,,,,
+a study on the calibration of in-context learning',https://aclanthology.org/2024.naacl-long.340/,N,2024,NAACL,,,,,,,
+a survey of confidence estimation and calibration in large language models',https://aclanthology.org/2024.naacl-long.366/,N,2024,NAACL,,,,,,,
+uncertainty estimation in large language models to support biodiversity conservation',https://aclanthology.org/2024.naacl-industry.31/,Y,2024,NAACL,BERTScore,Semantic similarity,,ECE,ECE,,N
+does chatgpt know that it does not know ? evaluating the black-box calibration of chatgpt',https://aclanthology.org/2024.lrec-main.462/,N,2024,LREC,,,,,,classification,
+modeling uncertainty and using post-fusion as fallback improves retrieval augmented generation with llms',https://aclanthology.org/2024.knowllm-1.7/,N,2024,KNOWLLM,,,,,,different eval,
+communicating uncertainty in explanations of the outcomes of machine learning models',https://aclanthology.org/2024.inlg-main.4/,N,2024,INLG,,,,,,super cool insights on user perception of uncertainty markers,
+uncertainty estimation on sequential labeling via uncertainty transmission',https://aclanthology.org/2024.findings-naacl.180/,N,2024,NAACL findings,,,,,,,
+when to trust llms : aligning confidence with response quality',https://aclanthology.org/2024.findings-acl.357/,Y,2024,ACL findings,LLM judge (GPT-4),LLM judge,,"ECE, Pearson Correlation, Spearman Correlation","ECE, correlation",,N
+knowledge of knowledge : exploring known-unknowns uncertainty with large language models',https://aclanthology.org/2024.findings-acl.383/,Y,2024,ACL findings,SimCSE > tau or fuzzy matching,"Exact/fuzzy matching, Semantic similarity",,"AUROC curves, Equal Error Rate (EER) - measures balance between false acceptance and false rejection rates","AUROC, Other",,N
+fact-and-reflection ( far ) improves confidence calibration of large language models',https://aclanthology.org/2024.findings-acl.515/,Y,2024,ACL findings,Exact match after normalization,Exact/fuzzy matching,,"ECE, MacroECE",ECE,maybe interesting to Joris?,N
+fact-checking the output of large language models via token-level uncertainty quantification',https://aclanthology.org/2024.findings-acl.558/,Y,2024,ACL findings,"Human labels, FactScore (retrieval+ChatGPT)","Human, LLM judge",,"AUROC, AUPRC","AUROC, AUCPR",,NA
+data contamination calibration for black-box llms',https://aclanthology.org/2024.findings-acl.644/,N,2024,ACL findings,,,,,,,
+"deal , or no deal ( or who knows ) ? forecasting uncertainty in conversations using large language models'",https://aclanthology.org/2024.findings-acl.697/,N,2024,ACL findings,,,,,,,
+bayesian prompt ensembles : model uncertainty estimation for black-box large language models',https://aclanthology.org/2024.findings-acl.728/,N,2024,ACL findings,,,,,,classification,
+enhanced language model truthfulness with learnable intervention and uncertainty expression',https://aclanthology.org/2024.findings-acl.737/,N,2024,ACL findings,,,,,,,
+"""selective `` selective prediction '' : reducing unnecessary abstention in vision-language reasoning""",https://aclanthology.org/2024.findings-acl.767/,Y,2024,ACL findings,LLM judge (LAVEGPT-3.5),LLM judge,,"risk, coverage, Effective Reliability (rewards correct predictions, assigns a penalty c to incorrect predictions, and assigns zero reward to abstentions), Selective Prediction Recall",Other,,N
+the craft of selective prediction : towards reliable case outcome classification - an empirical study on european court of human rights cases',https://aclanthology.org/2024.findings-emnlp.208/,N,2024,EMNLP findings,,,,,,,
+self-consistency boosts calibration for math reasoning',https://aclanthology.org/2024.findings-emnlp.349.pdf,N,2024,EMNLP findings,,,,,,classification,
+conu : conformal uncertainty in large language models with correctness coverage guarantees',https://aclanthology.org/2024.findings-emnlp.404/,Y,2024,EMNLP findings,Sentence similarity (DistillRoberta)) > 0.7,Semantic similarity,,AUROC,AUROC,,N
+distance-aware calibration for pre-trained language models',https://aclanthology.org/2024.findings-emnlp.725/,N,2024,EMNLP findings,,,,,,classification,
+prompt-based bias calibration for better zero/few-shot learning of language models',https://aclanthology.org/2024.findings-emnlp.741/,N,2024,EMNLP findings,,,,,,,
+internalinspector $ i^2 $ : robust confidence estimation in llms through internal states',https://aclanthology.org/2024.findings-emnlp.751/,Check again,2024,EMNLP findings,conf > 0.5,,,"ECE, ACC",,,
+uncertainty calibration for tool-using language agents',https://aclanthology.org/2024.findings-emnlp.978/,N,2024,EMNLP findings,,,,,,,
+uncertainty in language models : assessment through rank-calibration',https://aclanthology.org/2024.emnlp-main.18/,Y,2024,EMNLP,"Rouge-L, BERT similarity, LLM judge (ChatGPT)","Overlap based, semantic similarity, LLM judge",,Rank calibration error,ECE,,N
+quite : quantifying uncertainty in natural language text in bayesian reasoning scenarios',https://aclanthology.org/2024.emnlp-main.153/,N,2024,EMNLP,,,,,,,
+calibrating the confidence of large language models by eliciting fidelity',https://aclanthology.org/2024.emnlp-main.173/,N,2024,EMNLP,Unidentifiable,Unidentifiable,,"ECE, Brier, IPR (Inverse Pair Ratio)","ECE, Brier, Other",,N
+bayesian calibration of win rate estimation with llm evaluators',https://aclanthology.org/2024.emnlp-main.273/,N,2024,EMNLP,,,,,,maybe related to Wilker's BDA models?,
+luq : long-text uncertainty quantification for llms',https://aclanthology.org/2024.emnlp-main.299/,Y,2024,EMNLP,"FACTSCORE, human validation","HumanVal, LLM judge",,"Pearson Correlation Coefficient (PCC), Spearman Cor- relation Coefficient (SCC)",correlation,,Y
+sayself : teaching llms to express confidence with self-reflective rationales',https://aclanthology.org/2024.emnlp-main.343/,Y,2024,EMNLP,annotated answers must be present within the responses,Exact/fuzzy matching,,"ECE, AUROC","ECE, AUROC",maybe interesting to Joris,N
+contextualized sequence likelihood : enhanced confidence scores for natural language generation',https://aclanthology.org/2024.emnlp-main.578/,Y,2024,EMNLP,"LLMs as judges ( LLaMA2-70B + gpt-3.5-turbo), human validation","LLM judge, HumanVal",,"AUROC, AURAC","AUROC, AURAC",,Y
+enhancing language model factuality via activation-based confidence calibration and guided decoding',https://aclanthology.org/2024.emnlp-main.583/,Y,2024,EMNLP,"ROUGE > 0.3, LLM judge (GPT4)","Overlap based, LLM judge",,"ECE, Brier","ECE, Brier",,N
+"""do n't forget your reward values : language model alignment via value-based calibration""",https://aclanthology.org/2024.emnlp-main.976/,N,2024,EMNLP,,,,,,,
+label confidence weighted learning for target-level sentence simplification',https://aclanthology.org/2024.emnlp-main.999/,N,2024,EMNLP,,,,,,,
+can llms learn uncertainty on their own ? expressing uncertainty effectively in a self-training manner',https://aclanthology.org/2024.emnlp-main.1205/,Y,2024,EMNLP,Rouge-L > 0.5,Overlap based,,AUROC,AUROC,,N
+smartcal : an approach to self-aware tool-use evaluation and calibration',https://aclanthology.org/2024.emnlp-industry.59/,Y,2024,EMNLP industry,Exact Match,Exact/fuzzy matching,,ECE,ECE,,N
+asking the right question at the right time : human and model uncertainty guidance to ask clarification questions',https://aclanthology.org/2024.eacl-long.16/,N,2024,EACL,,,,,,,
+measuring uncertainty in neural machine translation with similarity-sensitive entropy',https://aclanthology.org/2024.eacl-long.129/,Y,2024,EACL,COMETKiwi,Semantic similarity,,Spearman (ρ) and Pearson (r) correlations,correlation,,N
+spuq : perturbation-based uncertainty quantification for large language models',https://aclanthology.org/2024.eacl-long.143/,Y,2024,EACL,F1,Overlap based,,"ECE, Pearson Correlation between confidence and accuracy","ECE, correlation",,N
+characterizing the confidence of large language model-based automatic evaluation metrics',https://aclanthology.org/2024.eacl-short.9/,N,2024,EACL,,,,,,maybe relevant to current submission as related work?,
+large language model recall uncertainty is modulated by the fan effect',https://aclanthology.org/2024.conll-1.24/,N,2024,CONLL,,,,,,maybe interesting to my new project idea,
+ltrc-iiith at ehrsql 2024 : enhancing reliability of text-to-sql systems through abstention and confidence thresholding',https://aclanthology.org/2024.clinicalnlp-1.66/,N,2024,CLINICALNLP,,,,,,,
+a bayesian approach to uncertainty in word embedding bias estimation',https://aclanthology.org/2024.cl-2.4/,N,2024,TACL,,,,,,,
+scoring with confidence ? -- exploring high-confidence scoring for saving manual grading effort',https://aclanthology.org/2024.bea-1.11/,N,2024,BEA,,,,,,,
+confidence under the hood : an investigation into the confidence-probability alignment in large language models',https://aclanthology.org/2024.acl-long.20.pdf,N,2024,ACL,,,,,,This should be related work to our TACL submission,
+factual confidence of llms : on reliability and robustness of current estimators',https://aclanthology.org/2024.acl-long.250/,Y,2024,ACL,Unidentifiable,Unidentifiable,,AUPRC,AUCPR,,N
+shifting attention to relevance : towards the predictive uncertainty quantification of free-form large language models',https://aclanthology.org/2024.acl-long.276.pdf,Y,2024,ACL,"Rouge-L > 0.5 + Semantic similarity (distilroberta) > 0.5, Human validation","Overlap based, Semantic similarity, HumanVal",,AUROC,AUROC,,Y
+quantifying uncertainty in answers from any language model and enhancing their trustworthiness',https://aclanthology.org/2024.acl-long.283.pdf,Y,2024,ACL,"LLM judge (GPT- 4), Human validation","LLM judge, HumanVal",,AUROC,AUROC,,Y
+mars : meaning-aware response scoring for uncertainty estimation in generative llms',https://aclanthology.org/2024.acl-long.419.pdf,Y,2024,ACL,LLM as judge (GPT-3.5-turbo),LLM judge,,AUROC,AUROC,,N
+strength in numbers : estimating confidence of large language models by prompt agreement',https://aclanthology.org/2023.trustnlp-1.28/,N,2023,TRUSTNLP,,,,,,classification,
+calibrated interpretation : confidence estimation in semantic parsing',https://aclanthology.org/2023.tacl-1.69/,N,2023,TACL,,,,,,,
+confidently wrong : exploring the calibration and expression of ( un ) certainty of large language models in a multilingual setting',https://aclanthology.org/2023.mmnlg-1.1/,N,2023,MMNLG,,,,,,,
+uncertainty estimation for debiased models : does fairness hurt reliability ?',https://aclanthology.org/2023.ijcnlp-main.48/,N,2023,IJCNLP,,,,,,classification,
+selective-lama : selective prediction for confidence-aware evaluation of language models',https://aclanthology.org/2023.findings-eacl.150/,N,2023,EACL findings,,,,,,classification,
+unsupervised semantic variation prediction using the distribution of sibling embeddings',https://aclanthology.org/2023.findings-acl.429/,N,2023,ACL findings,,,,,,,
+local temperature beam search : avoid neural text degeneration via enhanced calibration',https://aclanthology.org/2023.findings-acl.628/,N,2023,ACL findings,,,,,,,
+generative calibration for in-context learning',https://aclanthology.org/2023.findings-emnlp.152/,N,2023,EMNLP findings,,,,,,classfication,
+on uncertainty calibration and selective generation in probabilistic neural summarization : a benchmark study',https://aclanthology.org/2023.findings-emnlp.197/,Y,2023,EMNLP findings,"ROUGE-1,2,L",Overlap based,,"ECE, AUROC, Quality vs Abstention Curves","ECE, AUROC, AURAC",,N
+adaptation with self-evaluation to improve selective prediction in llms',https://aclanthology.org/2023.findings-emnlp.345/,Y,2023,EMNLP findings,"Rouge-L, human validation","Overlap based, HumanVal",,"AUROC, AUACC","AUROC, AURAC",,Y
+recal : sample-relation guided confidence calibration over tabular data',https://aclanthology.org/2023.findings-emnlp.482/,N,2023,EMNLP findings,,,,,,,
+on the calibration of large language models and alignment',https://aclanthology.org/2023.findings-emnlp.654/,N,2023,EMNLP findings,,,,,,,
+aligning predictive uncertainty with clarification questions in grounded dialog',https://aclanthology.org/2023.findings-emnlp.999/,N,2023,EMNLP findings,,,,,,,
+unleashing the multilingual encoder potential : boosting zero-shot performance via probability calibration',https://aclanthology.org/2023.findings-emnlp.1056/,N,2023,EMNLP findings,,,,,,classification,
+prism : enhancing low-resource document-level relation extraction with relation-aware score calibration',https://aclanthology.org/2023.findings-ijcnlp.4.pdf,N,2023,IJCNLP-AACL findings,,,,,,,
+"why llms hallucinate , and how to get ( evidential ) closure : perceptual , intensional , and extensional learning for faithful natural language generation'",https://aclanthology.org/2023.emnlp-main.192/,N,2023,EMNLP ,,,,,,,
+uncertainty guided global memory improves multi-hop question answering',https://aclanthology.org/2023.emnlp-main.262/,N,2023,EMNLP ,,,,,,,
+just ask for calibration : strategies for eliciting calibrated confidence scores from language models fine-tuned with human feedback',https://aclanthology.org/2023.emnlp-main.330/,Y,2023,EMNLP ,"LLM as judge (GPT4, 3.5), human validation","LLM judge, HumanVal",,"AUC, ECE, Brier Score","AURAC, ECE, Brier",,Y
+a diachronic perspective on user trust in ai under uncertainty',https://aclanthology.org/2023.emnlp-main.339/,N,2023,EMNLP ,,,,,,,
+lm-polygraph : uncertainty estimation for language models',https://aclanthology.org/2023.emnlp-demo.41/,Y,2023,EMNLP Demo,"Rouge-L, BERTScore","Overlap based, Semantic similarity",,Prediction Rejection Ratio (PRR),PRR,,N
+realistic conversational question answering with answer selection based on calibrated confidence and uncertainty measurement',https://aclanthology.org/2023.eacl-main.35/,N,2023,EACL,,,,,,classification,
+a close look into the calibration of pre-trained language models',https://aclanthology.org/2023.acl-long.75/,N,2023,ACL,,,,,,classification,
+on the evaluation of neural selective prediction methods for natural language processing',https://aclanthology.org/2023.acl-long.437/,N,2023,ACL,,,,,,classification,
+ 'hybrid uncertainty quantification for selective text classification in ambiguous tasks',https://aclanthology.org/2023.acl-long.652/,N,2023,ACL,,,,,,classification,
+ethicist : targeted training data extraction through loss smoothed soft prompting and calibrated confidence estimation',https://aclanthology.org/2023.acl-long.709/,N,2023,ACL,,,,,,,
+uncertainty estimation and reduction of pre-trained models for text regression',https://aclanthology.org/2022.tacl-1.39/,N,2022,TACL,,,,,,classification,
+"""reducing conversational agents ' overconfidence through linguistic calibration""",https://aclanthology.org/2022.tacl-1.50/,Y,2022,TACL,"Human labels, Match based, Bert based trained classifier","Human, Exact/fuzzy matching, Semantic similarity",,"ECE, MCE, NLL","ECE, NLL",,NA
+disentangling confidence score distribution for out-of-domain intent detection with energy-based learning',https://aclanthology.org/2022.seretod-1.5/,N,2022,SERETOD,,,,,,classification,
+masked language models directly encode linguistic uncertainty',https://aclanthology.org/2022.scil-1.22.pdf,N,2022,SCIL,,,,,,,
+towards improving selective prediction ability of nlp systems',https://aclanthology.org/2022.repl4nlp-1.23/,N,2022,REPL4NLP,,,,,,classification,
+conditional language models for community-level linguistic variation',https://aclanthology.org/2022.nlpcss-1.9/,N,2022,NLPCSS,,,,,,,
+measuring uncertainty in translation quality evaluation ( tqe )',https://aclanthology.org/2022.lrec-1.156/,N,2022,LREC,,,,,,,
+on isotropy calibration of transformer models',https://aclanthology.org/2022.insights-1.1/,N,2022,INSIGHTS,,,,,,,
+answer uncertainty and unanswerability in multiple-choice machine reading comprehension',https://aclanthology.org/2022.findings-acl.82/,N,2022,ACL findings,,,,,,classification,
+calibration of machine reading systems at scale',https://aclanthology.org/2022.findings-acl.133/,Y,2022,ACL findings,Unidentifiable,Unidentifiable,,"ECE, AURC, AURCC","ECE, AURAC",,N
+"investigating selective prediction approaches across several tasks in iid , ood , and adversarial settings'",https://aclanthology.org/2022.findings-acl.158/,N - Check again,2022,ACL findings,,,,area under Risk-Coverage curve,,classification ,
+exploring predictive uncertainty and calibration in nlp : a study on the impact of method \\ & data scarcity',https://aclanthology.org/2022.findings-emnlp.198/,N,2022,EMNLP findings,,,,,,classification ,
+re-examining calibration : the case of question answering',https://aclanthology.org/2022.findings-emnlp.204/,Y,2022,EMNLP findings,Exact match,Exact/fuzzy matching,,"ECE, MacroCE",ECE,,N
+lpc : a logits and parameter calibration framework for continual learning',https://aclanthology.org/2022.findings-emnlp.529/,N,2022,EMNLP findings,,,,,,,
+uncertainty quantification with pre-trained language models : a large-scale empirical analysis',https://aclanthology.org/2022.findings-emnlp.538/,N,2022,EMNLP findings,,,,,,classification,
+tracing semantic variation in slang',https://aclanthology.org/2022.emnlp-main.84/,N,2022,EMNLP,,,,,,,
+calibration meets explanation : a simple and effective approach for model confidence estimates',https://aclanthology.org/2022.emnlp-main.178/,N,2022,EMNLP,,,,,,classification,
+addmu : detection of far-boundary adversarial examples with data and model uncertainty estimation',https://aclanthology.org/2022.emnlp-main.440/,N,2022,EMNLP,,,,,,classification,
+disentangling uncertainty in machine translation evaluation',https://aclanthology.org/2022.emnlp-main.591/,N,2022,EMNLP,COMET,,,"predictive Pearson score, uncertainty Pearson score, NLL, ECE","correlation, NLL, ECE",,
+cml : a contrastive meta learning method to estimate human label confidence scores and reduce data collection cost',https://aclanthology.org/2022.ecnlp-1.5/,N,2022,ECNLP,,,,,,,
+distribution calibration for out-of-domain detection with bayesian approximation',https://aclanthology.org/2022.coling-1.50/,N,2022,COLING,,,,,,,
+answer-level calibration for free-form multiple choice question answering',https://aclanthology.org/2022.acl-long.49/,N,2022,ACL,,,,,,,
+learning confidence for transformer-based neural machine translation',https://aclanthology.org/2022.acl-long.167/,Y,2022,ACL,Human labels (no automated judge),Human,,"Pearson’s correlation, AUROC, AUPR","correlation, AUROC, AUCPR",,NA
+uncertainty estimation of transformer predictions for misclassification detection',https://aclanthology.org/2022.acl-long.566/,N,2022,ACL,,,,,,classification,
+uncertainty determines the adequacy of the mode and the tractability of decoding in sequence-to-sequence models',https://aclanthology.org/2022.acl-long.591/,N,2022,ACL,,,,,,,
+measuring and improving model-moderator collaboration using uncertainty estimation',https://aclanthology.org/2021.woah-1.5/,N,2021,WOAH,,,,,,classification,
+how can we know when language models know ? on the calibration of language models for question answering',https://aclanthology.org/2021.tacl-1.57/,N,2021,TACL,,,,,,classification,
+knowing more about questions can help : improving calibration in question answering',https://aclanthology.org/2021.findings-acl.172.pdf,Y,2021,ACL-IJCNLP,exact match,Exact/fuzzy matching,,"AUROC, Cov@Acc","AUROC, Cov@Acc",,N
+uncertainty aware review hallucination for science article classification',https://aclanthology.org/2021.findings-acl.443.pdf,N,2021,ACL-IJCNLP,,,,,,classification,
+multi-task dense retrieval via model uncertainty fusion for open-domain question answering',https://aclanthology.org/2021.findings-emnlp.26/,N,2021,EMNLP findings,,,,,,,
+on the effects of transformer size on in- and out-of-domain calibration',https://aclanthology.org/2021.findings-emnlp.180/,N,2021,EMNLP findings,,,,,,classification,
+beyond glass-box features : uncertainty quantification enhanced quality estimation for neural machine translation',https://aclanthology.org/2021.findings-emnlp.401/,N,2021,EMNLP findings,,,,,,,
+on hallucination and predictive uncertainty in conditional language generation',https://aclanthology.org/2021.eacl-main.236/,Y,2021,EACL,"exact matching (i.e. synonyms for all possible MSCOCO objects), BLEU, human validation","Exact/fuzzy matching, Overlap based, HumanVal",,Risk - performance curves,AURAC,,Y
+the art of abstention : selective prediction and error regularization for natural language processing',https://aclanthology.org/2021.acl-long.84/,N,2021,ACL,,,,,,classification,
+attention calibration for transformer in neural machine translation',https://aclanthology.org/2021.acl-long.103/,N,2021,ACL,,,,,,,
+understanding neural abstractive summarization models via uncertainty',https://aclanthology.org/2020.emnlp-main.508/,N,2020,EMNLP,,,,,,,
+on the inference calibration of neural machine translation',https://aclanthology.org/2020.acl-main.278/,Y,2020,ACL,Translation Edit Rate (TER),Overlap based,,ECE,ECE,,N
+,,,,,,,,,,,
+estimating predictive uncertainty for rumour verification models',https://aclanthology.org/2020.acl-main.623/,N,2020,ACL,,,,,,classification,
+preventing critical scoring errors in short answer scoring with confidence estimation',https://aclanthology.org/2020.acl-srw.32/,N,2020,ACL-SRW,,,,,,,
