@@ -4,6 +4,8 @@ Investigating how automated correctness judgements impact scores of uncertainty 
 
 This code supplements an accepted paper at INLG 2026. Link to the paper to be provided shortly.
 
+Supplementary code for the Bayesian Analysis described in the paper can be found [here](https://github.com/probabll/buqeval).
+
 ## Repository layout
 
 ```
